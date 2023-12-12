@@ -1,0 +1,145 @@
+Desarrollo de una Aplicación Web Estática en Django
+
+1. INTRODUCCIÓN
+
+1.1 Introducción
+- Motivación
+La idea es desarrollar una aplicación estática  es flexibilidad de personalizar y diseñar el CV de una manera más creativa y atractiva que un documento tradicional. 
+- Objetivo
+El objetivo de hacer una página estática con nuestros currículum es que facilita el acceso por parte de empleadores o reclutadores de todo el mundo. 
+
+1.2 Django
+Django es un entorno de programación en Python diseñado para el desarrollo de
+aplicaciones web. Es un framework sencillo de instalar, con posee una
+documentación muy completa y extensa, y que viene con un Sistema Gestor de
+Bases de Datos ya incorporado (sqlite3),
+Existen bastantes aplicaciones web que utilizan Django, como mínimo en alguno de
+sus componentes:
+• Instagram.
+• Pinterest.
+• Nasa Science.
+• National Geographic.
+• The New York Times.
+
+2. ESPECIFICACIÓN DE REQUISITOS
+
+2.1 Introducción 
+Esta especificación de requisitos, se redacta con el propósito de ayudar a futuros desarrolladores a la hora de programar, correctamente el producto, siguiendo todas las especificaciones marcadas por el cliente. Así como también sirve para, de la forma más detallada posible, describir las interfaces, el software y los requerimientos del cliente.
+ 
+2.1.1 Propósito. 
+El propósito de este sistema es proporcionar accesibilidad y visibilidad profesional que permita el acceso de empleadores o reclutadores de todo el mundo. 
+
+2.1.2 Ambito del sistema. 
+Disponibilidad las 24 horas del día.
+Visualización detallada de proyectos.
+Visualización acerca del profesional.
+Demostración de habilidades técnicas.
+Enlace permanente.
+
+
+2.1.3.Definiciones, acrónimos y abreviaturas. 
+
+Usuario: Persona que accede al sistema para realizar compras.
+Portafolio: visualización de proyectos.
+Contacto: formas de contactarse con el profesional.
+Portada: portada del profesional 
+Acerca de: Presentación y skills del profesional
+
+2.1.4 Referencias 
+
+Se adjuntará el link del prototipo
+
+2.1.5 Visión general del documento. 
+
+Este documento detalla los requisitos funcionales y no funcionales del aplicativo web estático.
+En cuanto a los requisitos funcionales se espera que el usuario:
+Mostrar una página de inicio, la portada, con el nombre, título profesional del profesional
+Presentar la sección portafolio, para la experiencia laboral y proyectos.
+Presentar la sección contacto, con el teléfono, email, y horario de atención del profesional
+Permitir a los usuarios navegar fácilmente entre las diferentes secciones de la página.
+El diseño sea responsive, garantizando una experiencia de usuario óptima en dispositivos móviles y tabletas
+En cuanto a los requisitos no funcionales se espera que el sistema sea:
+Seguro
+Escalable
+Compatible con chrome, edge, firefox, etc.
+Compatible con dispositivos móviles
+Enlace permanente
+
+2.2 Descripción General 
+2.2.1 Perspectiva del Producto 
+La página web estática donde el profesional presenta su currículum, se centran en las funciones específicas y las interacciones que debería tener la página para cumplir su propósito principal de mostrar la información profesional de manera efectiva.
+
+2.2.2 Funciones del Producto La aplicación web a desarrollar tiene diversas funcionalidades: 
+
+-Cada sección es un botón: portada, acerca de, portafolio, contacto.
+-Tiene un Banner por sección: portada, acerca de, portafolio, contacto.
+-Tiene una foto dentro de cada sección.
+-La portada mostrará el nombre, título profesional del profesional
+-Acerca de, mostrará la introducción y skills del profesional
+-Portafolio mostrará los proyectos y tecnología del profesional
+-Contacto, mostrará teléfono, correo electrónico y horario de atención del profesional 
+2.3 Requisitos Específicos 
+
+● R1: Mostrar una página de inicio, la portada, con el nombre, título profesional del profesional. 
+● R2: Presentar la sección portafolio, para la experiencia laboral y proyectos.
+● R3: Presentar la sección contacto, con el teléfono, email, y horario de atención del profesional.
+● R4: Permitir a los usuarios navegar fácilmente entre las diferentes secciones de la página.
+● R5: El diseño sea responsive, garantizando una experiencia de usuario óptima en dispositivos móviles y tabletas
+
+
+3. PLANIFICACIÓN 
+Fechas Clave:
+Inicio del Desarrollo: [01/12/2023]
+Finalización del Desarrollo: [22/12/2023]
+Lanzamiento del Sistema: [31/01/2024]
+Hitos:
+Finalización del Diseño de Interfaz de Usuario: [11/12/2023]
+Finalización de la Implementación: [21/12/2023]
+Inicio de las Pruebas: [22/12/2023]
+3.1 Recursos
+Recursos Humanos:
+Desarrolladores Frontend y Backend
+Diseñador de Interfaz de Usuario (UI)
+Analistas de Sistema
+Pruebas
+Recursos Tecnológicos:
+Servidores de Desarrollo y Producción
+Herramientas de Desarrollo: Django, Python, etc.
+
+4. ANÁLISIS
+Requisitos Funcionales
+Registro y Autenticación de Clientes:
+Descripción detallada de los procesos de registro y autenticación.
+Gestión de Productos:
+Especificaciones sobre cómo buscar y cómo se agregarán los productos.
+Carrito de Compras y Proceso de Pago:
+Flujo detallado desde la selección de productos hasta el pago.
+Requisitos No Funcionales
+Seguridad:
+Seguridad de los datos del cliente y la transacción de pago.
+Rendimiento:
+La velocidad de carga moderada y la capacidad de respuesta apropiada.
+Compatibilidad:
+Requisitos para la compatibilidad con distintos navegadores y dispositivos.
+
+5. DISEÑO 
+5.1 Diseño de Base de Datos
+Se diseñará la estructura de la base de datos, tablas y relaciones para los proyectos.
+5.2 Diseño de Interfaz de Usuario (UI)
+Se diseñará un prototipo.
+5.3 Diseño de Arquitectura del Sistema
+Arquitectura de la aplicación aún por definir pero se usará el patrón de programación orientada a objetos.
+
+6. IMPLEMENTACIÓN 
+
+Desarrollo de cada funcionalidad según los requisitos especificados.
+Integración de módulos y componentes desarrollados.
+Configuración de servidores para desarrollo y producción.
+
+7. PRUEBAS
+
+Plan de pruebas donde incluye pruebas de integración y de sistema
+Diseño de los casos de pruebas
+Ejecución de las pruebas 
+Registro de resultados de pruebas y corrección de errores.
+Aprobación formal del sistema por parte del equipo de desarrollo y los interesados.
